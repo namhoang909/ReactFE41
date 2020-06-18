@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import BaiTapDanLayout from './components/BaiTapDanLayout/BaiTapDanLayout'
+import DataBinding from './DataBinding/DataBinding';
 function App() {
   return (
     <div className="App">
-      <button className="btn btn-success">123</button>
+      {/* <BaiTapDanLayout /> */}
+      <DataBinding />
     </div>
   );
 }
